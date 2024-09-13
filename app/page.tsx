@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const key = "AIzaSyBeL8ZXjPPRAPRXyyCATQePNuQGN83_ZpA"
+const key = "your api key"
 const genAI = new GoogleGenerativeAI(key);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
